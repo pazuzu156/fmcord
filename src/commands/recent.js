@@ -46,7 +46,7 @@ class RecentCommand extends Command {
             throw this.context;
           }
         } else {
-          songLimit = 1;
+          songLimit = 5;
         }
         if (args[1]) {
           user = getDiscordUser(message, args.slice(0, songArg).join(` `));
@@ -59,7 +59,7 @@ class RecentCommand extends Command {
           user = message.author;
         }
       } else {
-        songLimit = 1;
+        songLimit = 5;
         if (args.length > 0) {
           user = getDiscordUser(message, args.join(` `));
           if (!user) {
