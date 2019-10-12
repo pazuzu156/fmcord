@@ -1,9 +1,9 @@
 import canvas = require('canvas')
-import express = require('express')
-import path = require('path')
-import { Collection } from 'discord.js'
 import { Client } from './src/client'
+import { Collection } from 'discord.js'
+import express = require('express')
 import fs = require('fs')
+import path = require('path')
 
 const app = express()
 

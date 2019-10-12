@@ -1,6 +1,6 @@
-import * as djs from 'discord.js'
-import path = require('path')
 import { Config } from './utils/config'
+import djs = require('discord.js')
+import path = require('path')
 import { Sequelize } from 'sequelize'
 
 export class Client {

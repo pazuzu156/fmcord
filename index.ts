@@ -1,6 +1,6 @@
+import { Config } from './src/utils/config'
 import path = require('path')
 import { ShardingManager, Shard } from 'discord.js'
-import { Config } from './src/utils/config'
 
 let config = new Config()
 let manager = new ShardingManager(path.resolve(__dirname, 'bot.js'), { token: config.DiscordToken })
