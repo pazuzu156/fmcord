@@ -5,3 +5,4 @@ shrinkwrap.yaml
 .glitch-assets
 watch.json
 .vscode/*
+build/*
